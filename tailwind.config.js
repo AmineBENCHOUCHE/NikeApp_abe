@@ -35,6 +35,10 @@ export default {
       screens: {
         wide: "1440px",
       },
+      animation: {
+        // Bounces 5 times 1s equals 5 seconds
+        "bounce-short": "bounce 1.25s ease-in-out 2.5",
+      },
     },
   },
   plugins: [],
