@@ -9,7 +9,7 @@ import {
 import {
   AirJordan1,
   Airjordan4Eminem,
-  Airjordan12,
+  AirJordan11,
   customer1,
   customer2,
   shoe4,
@@ -33,7 +33,7 @@ export const shoes = [
     bigShoe: Airjordan4Eminem,
   },
   {
-    bigShoe: Airjordan12,
+    bigShoe: AirJordan11,
   },
 ];
 
