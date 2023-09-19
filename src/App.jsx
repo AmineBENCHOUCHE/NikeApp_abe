@@ -13,7 +13,7 @@ const App = () => (
     <section className="padding">
       <SuperQuality />
     </section>
-    <section className="padding px-10 py-10">
+    <section className="padding-l">
       <Services />
     </section>
     <section className="padding">
