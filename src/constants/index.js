@@ -8,6 +8,7 @@ import {
 } from "../assets/icons";
 import {
   AirJordan3,
+  AirJordan3Balvin,
   AirJordan5BelAir,
   Airjordan12,
   AirJordan11LegBlue,
@@ -52,22 +53,22 @@ export const statistics = [
 export const products = [
   {
     imgURL: AirJordan5BelAir,
-    name: "Nike Air Jordan-05 Bel-Air",
+    name: "Nike Air Jordan-V \n Bel-Air",
     price: "$210.00",
   },
   {
     imgURL: AirJordan10,
-    name: "Nike Air Jordan-10 Powder Blue",
+    name: "Nike Air Jordan-X Powder Blue",
     price: "$200.00",
   },
   {
     imgURL: AirJordan3,
-    name: "Nike Air Jordan-3 Blue Cement",
+    name: "Nike Air Jordan-III Blue Cement",
     price: "$250.00",
   },
   {
     imgURL: Airjordan13,
-    name: "Nike Air Jordan-13",
+    name: "Nike Air Jordan-XIII",
     price: "$190.00",
   },
 ];

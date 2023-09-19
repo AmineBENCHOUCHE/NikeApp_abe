@@ -1,5 +1,6 @@
 import AirJordan1 from "./AirJordan1.png";
 import AirJordan3 from "./aj3.png";
+import AirJordan3Balvin from "./aj3Balvin.jpg";
 import AirJordan5BelAir from "./aj5BelAir.png";
 import Airjordan4Eminem from "./aj4Eminem.png";
 import AirJordan11 from "./Airjordan11.png";
@@ -30,6 +31,7 @@ import thumbnailBackground from "./thumbnail-background.svg";
 export {
   AirJordan1,
   AirJordan3,
+  AirJordan3Balvin,
   Airjordan4Eminem,
   AirJordan5BelAir,
   AirJordan11,
