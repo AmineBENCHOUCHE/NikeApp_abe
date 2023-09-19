@@ -7,11 +7,17 @@ import {
   twitter,
 } from "../assets/icons";
 import {
+  AirJordan3,
+  AirJordan5BelAir,
+  Airjordan12,
+  AirJordan11LegBlue,
   AirJordan1,
   Airjordan4Eminem,
   AirJordan11,
+  Airjordan13,
   customer1,
   customer2,
+  AirJordan10,
   shoe4,
   shoe5,
   shoe6,
@@ -45,24 +51,24 @@ export const statistics = [
 
 export const products = [
   {
-    imgURL: shoe4,
-    name: "Nike Air Jordan-01",
-    price: "$200.20",
+    imgURL: AirJordan5BelAir,
+    name: "Nike Air Jordan-05 Bel-Air",
+    price: "$210.00",
   },
   {
-    imgURL: shoe5,
-    name: "Nike Air Jordan-10",
-    price: "$210.20",
+    imgURL: AirJordan10,
+    name: "Nike Air Jordan-10 Powder Blue",
+    price: "$200.00",
   },
   {
-    imgURL: shoe6,
-    name: "Nike Air Jordan-100",
-    price: "$220.20",
+    imgURL: AirJordan3,
+    name: "Nike Air Jordan-3 Blue Cement",
+    price: "$250.00",
   },
   {
-    imgURL: shoe7,
-    name: "Nike Air Jordan-001",
-    price: "$230.20",
+    imgURL: Airjordan13,
+    name: "Nike Air Jordan-13",
+    price: "$190.00",
   },
 ];
 

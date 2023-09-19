@@ -1,8 +1,11 @@
 import AirJordan1 from "./AirJordan1.png";
-import Airjordan5 from "./aj5.jpg";
+import AirJordan3 from "./aj3.png";
+import AirJordan5BelAir from "./aj5BelAir.png";
 import Airjordan4Eminem from "./aj4Eminem.png";
 import AirJordan11 from "./Airjordan11.png";
+import AirJordan10 from "./aj10PowderBlue.png";
 import Airjordan12 from "./aj12.png";
+import Airjordan13 from "./aj13.png";
 import AirJordan11LegBlue from "./AirJordan11LegBlue.png";
 
 import customer1 from "./customer1.jpeg";
@@ -26,10 +29,13 @@ import thumbnailBackground from "./thumbnail-background.svg";
 
 export {
   AirJordan1,
-  Airjordan5,
+  AirJordan3,
   Airjordan4Eminem,
+  AirJordan5BelAir,
   AirJordan11,
+  AirJordan10,
   Airjordan12,
+  Airjordan13,
   AirJordan11LegBlue,
   court,
   customer1,
