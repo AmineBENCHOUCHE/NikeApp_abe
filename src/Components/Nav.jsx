@@ -22,8 +22,8 @@ const links =  () => (
   const Nav = () => {
    const [toggleMenu, setToggleMenu] = useState(false);
    return (
-    <header className=" xl:padding-l padding-x py-8 absolute z-10 w-full">
-        <nav className="flex justify-between items-start max-container">
+    <header className="padding-x py-8 absolute z-10 w-full">
+        <nav className=" xl:padding-x flex justify-between items-center max-container">
             <a href="/">
               <div className="flex justify-center items-center">
                 <p className=" text-red-600 text-[35px] font-bold">JORDAN</p>
