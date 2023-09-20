@@ -3,7 +3,7 @@ import ServiceCard from "../Components/ServiceCard"
 
 const Services = () => {
   return (
-    <section className='flex justify-center flex-wrap gap-10 px-10 py-10 max-container'>
+    <section className='flex justify-center flex-wrap gap-10 padding-x py-10 max-container w-full'>
     {services.map((service)=> (
               <ServiceCard key={service.label} {...service}/>
               ))
