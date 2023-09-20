@@ -8,6 +8,10 @@ import AirJordan10 from "./aj10PowderBlue.png";
 import Airjordan12 from "./aj12.png";
 import Airjordan13 from "./aj13.png";
 import AirJordan11LegBlue from "./AirJordan11LegBlue.png";
+import photo1 from "./photo1.jpg";
+import photo2 from "./photo2.jpg";
+import photo3 from "./photo3.jpg";
+import specialOffer from "./specialOffer.png";
 
 import customer1 from "./customer1.jpeg";
 import customer2 from "./customer2.svg";
@@ -46,6 +50,10 @@ export {
   headerLogo,
   JordanSVG,
   IconBasketBall,
+  photo1,
+  photo2,
+  photo3,
+  specialOffer,
   offer,
   shoe4,
   shoe5,
