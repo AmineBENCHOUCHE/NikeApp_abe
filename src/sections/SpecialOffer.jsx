@@ -7,7 +7,7 @@ const SpecialOffer = () => {
     <section className="padding-x  flex flex-col justify-wrap items-center max-container gap-10 max-xl:flex-col-reverse ">
         <p className="w-full bg-black p-5 text-white animate:bounce-short text-center font-bold text-3xl rounded-xl">10% OFF FOR A LIMITED TIME ONLY</p>
       <div className=" relative grid grid-cols-2 gap-5 ">
-        <img src={photo1} alt="" className="col-span-1 rounded-xl hover:rounded-full"/>
+        <img src={photo1} alt="" className="col-span-1 rounded-xl hover:rounded-full transition-all transform -300"/>
         <img src={photo2} alt="" className="rounded-xl h-full hover:rounded-full"/>
         <img src={photo3} alt=""  className="col-span-2 rounded-xl w-full hover:rounded-full"
         />
