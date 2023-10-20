@@ -1,6 +1,7 @@
 import Button from "../Components/Button"
 import { JordanSVG } from "../assets/images"
 import { AirJordan3Balvin } from "../assets/images"
+import { delay, motion } from "framer-motion"
 const SuperQuality = () => {
   return (
     <section className="padding-x max-container flex justify-between items-start">
@@ -12,8 +13,15 @@ const SuperQuality = () => {
         </p>
         <div className="mt-11"><Button label="View Details"  /></div>
       </div>
-      <div className="flex flex-1 justify-end items-center">
-        <img src={AirJordan3Balvin} alt="shoe air jordan 3" width={570} height={570} className="aspect-square rounded-full" /></div>
+      <motion.div 
+        animate={{scale:0}} 
+        initial={{scale:0, opacity:0}}
+        transition={{ ease: "easeOut", duration: 2 }}  
+        whileInView={{scale:1, opacity:1}}
+        viewport={{once:true}}
+        className="flex flex-1 justify-end items-center">
+        <img src={AirJordan3Balvin} alt="shoe air jordan 3" width={570} height={570} className="aspect-square rounded-full" />
+      </motion.div>
     </section>
   )
 }

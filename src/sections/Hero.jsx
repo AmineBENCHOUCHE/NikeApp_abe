@@ -5,6 +5,8 @@ import StatisticCard from "../Components/StatisticCard"
 import {AirJordan1, court} from "../assets/images"
 import ShoeCard from "../Components/ShoeCard"
 import { useState } from "react"
+import { motion } from "framer-motion"
+
 
 const Hero = () => {
   const [bigShoeImage, setBigShoeImage] = useState(AirJordan1)
@@ -31,8 +33,12 @@ const Hero = () => {
         </div>
       </div>
       {/* Image on the right  */}
-      <div className=" flex-1 flex flex-col items-center justify-around xl:min-h-screen max-xl:py-40 bg-hero bg-cover bg-center gap-10 rounded-l-full rotate-90 lg:rotate-0">
-        <img src={bigShoeImage} alt="shoe collection" width={600} height={400} className=" flex-1 self-around object-contain z-10 md:animate-bounce-short md:mt-32 pt-20 rotate-[-90deg] lg:rotate-0"/>
+      <div className=" flex-1 flex flex-col items-center lg:w-1/2 justify-between xl:min-h-screen max-xl:py-40 bg-hero bg-cover bg-right md:bg-center gap-10 rounded-l-full rotate-90 lg:rotate-0 padding-x ml-5">
+        <motion.div
+          animate={{}}
+        >
+          <img src={bigShoeImage} alt="shoe collection" width={500} height={400} className=" flex-1 self-around object-contain z-10 md:animate-bounce-short transition-all md:mt-32 pt-20 rotate-[-90deg] lg:rotate-0"/>
+        </motion.div>
         <div className="md:relative sm:left-[15%] sm:flex-col lg:flex  lg:flex-row px-10 py-10 sm:gap-6 gap-4  max-sm:px-6 rotate-[-90deg] lg:rotate-0">
            {shoes.map((shoe) => (
              <div key={shoe}>
