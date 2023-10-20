@@ -113,12 +113,12 @@ export const footerLinks = [
   {
     title: "Products",
     links: [
-      { name: "Air Force 1", link: "/" },
-      { name: "Air Max 1", link: "/" },
-      { name: "Air Jordan 1", link: "/" },
-      { name: "Air Force 2", link: "/" },
-      { name: "Nike Waffle Racer", link: "/" },
-      { name: "Nike Cortez", link: "/" },
+      { name: "Air Jordan I", link: "/" },
+      { name: "Air Jordan IV", link: "/" },
+      { name: "Air Jordan V", link: "/" },
+      { name: "Air Force VI", link: "/" },
+      { name: "Air Jordan IX", link: "/" },
+      { name: "Air Jordan XI", link: "/" },
     ],
   },
   {
