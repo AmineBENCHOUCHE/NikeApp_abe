@@ -3,7 +3,7 @@ import AirJordan3 from "./aj3.png";
 import AirJordan3Balvin from "./aj3Balvin.jpg";
 import AirJordan5BelAir from "./aj5BelAir.png";
 import Airjordan4Eminem from "./aj4Eminem.png";
-import AirJordan11 from "./Airjordan11.png";
+import AirJordan11 from "./AirJordan11.png";
 import AirJordan10 from "./aj10PowderBlue.png";
 import Airjordan12 from "./aj12.png";
 import Airjordan13 from "./aj13.png";
@@ -32,31 +32,31 @@ import shoe8 from "./shoe8.svg";
 import thumbnailBackground from "./thumbnail-background.svg";
 
 export {
-  AirJordan1,
-  AirJordan3,
-  AirJordan3Balvin,
-  Airjordan4Eminem,
-  AirJordan5BelAir,
-  AirJordan11,
-  AirJordan10,
-  Airjordan12,
-  Airjordan13,
-  AirJordan11LegBlue,
-  court,
-  customer1,
-  customer2,
-  footerLogo,
-  headerLogo,
-  JordanSVG,
-  IconBasketBall,
-  photo1,
-  photo2,
-  photo3,
-  offer,
-  shoe4,
-  shoe5,
-  shoe6,
-  shoe7,
-  shoe8,
-  thumbnailBackground,
+	AirJordan1,
+	AirJordan3,
+	AirJordan3Balvin,
+	Airjordan4Eminem,
+	AirJordan5BelAir,
+	AirJordan11,
+	AirJordan10,
+	Airjordan12,
+	Airjordan13,
+	AirJordan11LegBlue,
+	court,
+	customer1,
+	customer2,
+	footerLogo,
+	headerLogo,
+	JordanSVG,
+	IconBasketBall,
+	photo1,
+	photo2,
+	photo3,
+	offer,
+	shoe4,
+	shoe5,
+	shoe6,
+	shoe7,
+	shoe8,
+	thumbnailBackground,
 };
